@@ -17,6 +17,7 @@ import { SidebarmenuUserinfoComponent }    from './components/adminlte/sidebar/s
 import { FooterMainComponent }             from './components/adminlte/footer/footer-main/footer-main.component';
 import { Pagina1Component } from './components/paginas/pagina1/pagina1.component';
 import { Pagina2Component } from './components/paginas/pagina2/pagina2.component';
+import { IndexComponent } from './components/paginas/index/index.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { Pagina2Component } from './components/paginas/pagina2/pagina2.component
     SidebarmenuSubmenuItemComponent,
     FooterMainComponent,
     Pagina1Component,
-    Pagina2Component
+    Pagina2Component,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
