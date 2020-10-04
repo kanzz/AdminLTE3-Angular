@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeftNavbarLinksComponent } from './left-navbar-links.component';
+import { LeftLinksNavbarComponent } from './left-links-navbar.component';
 
-describe('LeftNavbarLinksComponent', () => {
-  let component: LeftNavbarLinksComponent;
-  let fixture: ComponentFixture<LeftNavbarLinksComponent>;
+describe('LeftLinksNavbarComponent', () => {
+  let component: LeftLinksNavbarComponent;
+  let fixture: ComponentFixture<LeftLinksNavbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LeftNavbarLinksComponent ]
+      declarations: [ LeftLinksNavbarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LeftNavbarLinksComponent);
+    fixture = TestBed.createComponent(LeftLinksNavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

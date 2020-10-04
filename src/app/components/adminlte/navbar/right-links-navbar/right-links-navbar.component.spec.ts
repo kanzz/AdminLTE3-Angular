@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LinkComponent } from './link.component';
+import { RightLinksNavbarComponent } from './right-links-navbar.component';
 
-describe('LinkComponent', () => {
-  let component: LinkComponent;
-  let fixture: ComponentFixture<LinkComponent>;
+describe('RightLinksNavbarComponent', () => {
+  let component: RightLinksNavbarComponent;
+  let fixture: ComponentFixture<RightLinksNavbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LinkComponent ]
+      declarations: [ RightLinksNavbarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LinkComponent);
+    fixture = TestBed.createComponent(RightLinksNavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

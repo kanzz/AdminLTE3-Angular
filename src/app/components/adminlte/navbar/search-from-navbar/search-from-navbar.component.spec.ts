@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchFormComponent } from './search-form.component';
+import { SearchFromNavbarComponent } from './search-from-navbar.component';
 
-describe('SearchFormComponent', () => {
-  let component: SearchFormComponent;
-  let fixture: ComponentFixture<SearchFormComponent>;
+describe('SearchFromNavbarComponent', () => {
+  let component: SearchFromNavbarComponent;
+  let fixture: ComponentFixture<SearchFromNavbarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SearchFormComponent ]
+      declarations: [ SearchFromNavbarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SearchFormComponent);
+    fixture = TestBed.createComponent(SearchFromNavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
