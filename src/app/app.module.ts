@@ -15,6 +15,8 @@ import { SidebarmenuMenuItemComponent }    from './components/adminlte/sidebar/s
 import { SidebarmenuSubmenuItemComponent } from './components/adminlte/sidebar/sidebarmenu-submenu-item/sidebarmenu-submenu-item.component';
 import { SidebarmenuUserinfoComponent }    from './components/adminlte/sidebar/sidebarmenu-userinfo/sidebarmenu-userinfo.component';
 import { FooterMainComponent }             from './components/adminlte/footer/footer-main/footer-main.component';
+import { Pagina1Component } from './components/paginas/pagina1/pagina1.component';
+import { Pagina2Component } from './components/paginas/pagina2/pagina2.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { FooterMainComponent }             from './components/adminlte/footer/fo
     SidebarmenuUserinfoComponent,
     SidebarmenuMenuItemComponent,
     SidebarmenuSubmenuItemComponent,
-    FooterMainComponent
+    FooterMainComponent,
+    Pagina1Component,
+    Pagina2Component
   ],
   imports: [
     BrowserModule,
