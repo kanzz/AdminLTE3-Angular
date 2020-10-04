@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LeftLinksNavbarComponent } from './left-links-navbar.component';
+import { NavbarSearchFormComponent } from './navbar-search-form.component';
 
-describe('LeftLinksNavbarComponent', () => {
-  let component: LeftLinksNavbarComponent;
-  let fixture: ComponentFixture<LeftLinksNavbarComponent>;
+describe('NavbarSearchFormComponent', () => {
+  let component: NavbarSearchFormComponent;
+  let fixture: ComponentFixture<NavbarSearchFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LeftLinksNavbarComponent ]
+      declarations: [ NavbarSearchFormComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LeftLinksNavbarComponent);
+    fixture = TestBed.createComponent(NavbarSearchFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
