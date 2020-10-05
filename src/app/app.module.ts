@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { MenuService } from './services/menu.service';
+
+
 import { NavbarMainComponent }             from './components/adminlte/navbar/navbar-main/navbar-main.component';
 import { NavbarLeftLinksComponent }        from './components/adminlte/navbar/navbar-left-links/navbar-left-links.component';
 import { NavbarSearchFormComponent }       from './components/adminlte/navbar/navbar-search-form/navbar-search-form.component';
@@ -41,7 +44,9 @@ import { IndexComponent } from './components/paginas/index/index.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    MenuService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
