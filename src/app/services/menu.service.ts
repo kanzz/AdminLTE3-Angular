@@ -9,10 +9,10 @@ export class MenuService {
 
   constructor() {
     
-    let menuPaginas = this.generaMenuItem('fas fa-tachometer-alt','Paginas');
-    menuPaginas.SubMenuItems.push({link:'pagina1',texto: 'Pagina 1'});
-    menuPaginas.SubMenuItems.push({link:'pagina2',texto: 'Pagina 2'});
-    this.guardaMenu(menuPaginas);
+    let pagina:MenuItem = this.generaMenuItem('fas fa-file','Otrocasa');
+    pagina.SubMenuItems.push({link:'pagina1',texto: 'Pagina 1'});
+    pagina.SubMenuItems.push({link:'pagina2',texto: 'Pagina 2'});
+    this.guardaMenu(pagina);
 
   }
 
