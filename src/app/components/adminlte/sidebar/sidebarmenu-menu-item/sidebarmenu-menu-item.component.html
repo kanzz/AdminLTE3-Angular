@@ -1,1 +1,12 @@
-<p>sidebarmenu-menu-item works!</p>
+<li class="nav-item has-treeview">
+    <a href="#" class="nav-link">
+      <i class="nav-icon {{menuItem.icono}}"></i>
+      <p>
+        {{menuItem.texto}}
+        <i class="right fas fa-angle-left"></i>
+      </p>
+    </a>
+    <ul class="nav nav-treeview">
+      <app-sidebarmenu-submenu-item *ngFor="let ItemSubMenu of menuItem.SubMenuItems" [ItemSubMenu]="ItemSubMenu" ></app-sidebarmenu-submenu-item>
+    </ul>
+  </li>

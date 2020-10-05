@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MenuItem } from '../../../../services/menu.service';
 
 @Component({
   selector: 'app-sidebarmenu-menu-item',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarmenuMenuItemComponent implements OnInit {
 
-  constructor() { }
+  @Input() menuItem:MenuItem;
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }
